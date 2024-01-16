@@ -8,7 +8,7 @@ const january = new Date("January 13, 2024, 21:35:00 UTC+2");
 
 function showTime(startDate) {
 	let time = Date.now() - startDate;
-	progress.value = Date.now() - december.getTime();
+	progress.value = Date.now() - january.getTime();
 
 	const days = Math.floor(time / 86400000);
 	time -= days * 86400000;
