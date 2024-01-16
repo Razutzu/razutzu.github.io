@@ -25,7 +25,7 @@ function showTime(startDate) {
 }
 
 (function () {
-	const startDate = new Date("December 13, 2023, 21:35:00 UTC+2").getTime();
+	const startDate = new Date("November 13, 2023, 21:35:00 UTC+2").getTime();
 
 	showTime(startDate);
 
