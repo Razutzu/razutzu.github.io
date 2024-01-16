@@ -4,7 +4,7 @@ const m = document.getElementById("mins").children.item(0);
 const s = document.getElementById("secs").children.item(0);
 const progress = document.getElementById("progressBar");
 
-const december = new Date("December 13, 2023, 21:35:00 UTC+2");
+const january = new Date("January 13, 2024, 21:35:00 UTC+2");
 
 function showTime(startDate) {
 	let time = Date.now() - startDate;
@@ -25,7 +25,7 @@ function showTime(startDate) {
 }
 
 (function () {
-	const startDate = new Date("November 13, 2023, 21:35:00 UTC+2").getTime();
+	const startDate = new Date("December 13, 2023, 21:35:00 UTC+2").getTime();
 
 	showTime(startDate);
 
