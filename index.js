@@ -4,7 +4,7 @@ const m = document.getElementById("mins").children.item(0);
 const s = document.getElementById("secs").children.item(0);
 const progress = document.getElementById("progressBar");
 
-const february = new Date("February 13, 2024, 21:35:00 UTC+2");
+const february = new Date("March 13 13, 2024, 21:35:00 UTC+2");
 
 function showTime(startDate) {
 	let time = Date.now() - startDate;
