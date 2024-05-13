@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	background-color: #141414;
+	font-family: "Bebas Neue", sans-serif;
+	color: #967bb6;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 1px;
+}
+h4 {
+	font-size: 15px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#progress {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+progress[value] {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 250px;
+	height: 20px;
+}
+
+progress[value]::-webkit-progress-bar {
+	background-color: #141414;
+	border: 0.5px solid white;
+}
+
+progress[value]::-webkit-progress-value {
+	background-color: #967bb6;
+}
+
+#progress > * {
+	margin-right: 10px;
+	margin-right: 10px;
+}
+
+#container {
+	display: flex;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.timer {
+	margin: 25px;
+}
