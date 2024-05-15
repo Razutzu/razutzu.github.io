@@ -203,7 +203,9 @@ async function transition() {
 		rightPhotos.children.item(0).src = `images/${slides[slide].right[0]}.png`;
 		rightPhotos.children.item(1).src = `images/${slides[slide].right[1]}.png`;
 
-		await sleep(250);
+		console.log((rightPhotos.children.item(0).src = `images/${slides[slide].right[0]}.png`));
+
+		await sleep(500);
 
 		leftPhotos.children.item(0).classList.add("non-transparent");
 		leftPhotos.children.item(0).classList.remove("transparent");
