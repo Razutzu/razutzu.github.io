@@ -101,6 +101,7 @@ const slides = [
 
 let slide = -1;
 let reached = false;
+let changing = false;
 
 let desc;
 
@@ -132,7 +133,6 @@ function displayTime(showTime) {
 async function update() {
 	if (reached) return;
 	if (Date.now() >= reach) {
-		changing = true;
 		reached = true;
 		displayTime(reach);
 		await sleep(5000);
@@ -141,13 +141,9 @@ async function update() {
 		progressContainer.classList.add("transparent");
 		nextSlide();
 		document.addEventListener("keydown", (e) => {
-			console.log(1);
-			if (!reached) return;
-			console.log(3);
 			if (e.defaultPrevented) return;
-			console.log(4);
-			if (e.key == "a") nextSlide();
-			else if (e.key == "d") previousSlide();
+			if (e.key == "d") nextSlide();
+			else if (e.key == "a") previousSlide();
 			e.preventDefault();
 		});
 		return false;
@@ -158,18 +154,21 @@ async function update() {
 }
 
 async function previousSlide() {
+	if (changing) return;
 	if (slide == 0) return;
 	slide--;
-	await transition();
+	transition();
 }
 
 async function nextSlide() {
+	if (changing) return;
 	if (slide == slides.length - 1) return;
 	slide++;
-	await transition();
+	transition();
 }
 
 async function transition() {
+	changing = true;
 	displayedMessage.classList.add("transparent");
 	displayedMessage.classList.remove("non-transparent");
 	await sleep(1000);
@@ -233,6 +232,7 @@ async function transition() {
 			await sleep(15);
 		}
 	}
+	changing = false;
 }
 
 if (update()) setInterval(update, 1000);
