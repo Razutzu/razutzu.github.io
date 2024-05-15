@@ -186,6 +186,7 @@ async function transition() {
 	await sleep(1500);
 
 	if (slides[slide].simple) {
+		await sleep(1000);
 		displayedMessage.children.item(0).innerHTML = "";
 		displayedMessage.children.item(0).style = "width: 700px;";
 		displayedMessage.children.item(1).style = `height: 0px;`;
@@ -202,9 +203,7 @@ async function transition() {
 		rightPhotos.children.item(0).src = `images/${slides[slide].right[0]}.png`;
 		rightPhotos.children.item(1).src = `images/${slides[slide].right[1]}.png`;
 
-		console.log((rightPhotos.children.item(0).src = `images/${slides[slide].right[0]}.png`));
-
-		await sleep(500);
+		await sleep(1000);
 
 		leftPhotos.children.item(0).classList.add("non-transparent");
 		leftPhotos.children.item(0).classList.remove("transparent");
