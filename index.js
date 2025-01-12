@@ -7,9 +7,9 @@ const progress = document.getElementById("progressBar");
 const continer = document.getElementById("container");
 const progressContainer = document.getElementById("progress");
 
-const relDate = new Date("November 13, 2023, 21:35:00 UTC+3	").getTime();
-const start = new Date("September 13, 2024, 21:35:00 UTC+3").getTime();
-const reach = new Date("October 13, 2024, 21:35:00 UTC+3").getTime();
+const relDate = new Date("November 13, 2023, 21:35:00 UTC+2").getTime();
+const start = new Date("December 13, 2024, 21:35:00 UTC+3").getTime();
+const reach = new Date("January 13, 2025, 21:35:00 UTC+3").getTime();
 
 progress.max = reach - start;
 
