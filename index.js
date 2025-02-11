@@ -2,7 +2,6 @@ const d = document.getElementById("days").children.item(0);
 const h = document.getElementById("hrs").children.item(0);
 const m = document.getElementById("mins").children.item(0);
 const s = document.getElementById("secs").children.item(0);
-const progress = document.getElementById("progressBar");
 
 const continer = document.getElementById("container");
 const progressContainer = document.getElementById("progress");
@@ -11,12 +10,8 @@ const relDate = new Date("November 13, 2023, 21:35:00 UTC+2").getTime();
 const start = new Date("January 13, 2024, 21:35:00 UTC+3").getTime();
 const reach = new Date("February 13, 2025, 21:35:00 UTC+3").getTime();
 
-progress.max = reach - start;
-
 function displayTime(showTime) {
 	let time = showTime - relDate;
-
-	progress.value = showTime - start;
 
 	const days = Math.floor(time / 86400000);
 	time -= days * 86400000;

@@ -10,6 +10,7 @@ h1 {
 	text-align: center;
 	font-size: 50px;
 	margin-bottom: 1px;
+	margin-top: 1px;
 }
 h4 {
 	font-size: 15px;
@@ -54,11 +55,6 @@ progress[value]::-webkit-progress-value {
 	transform: translate(-50%, -50%);
 }
 
-#time {
-	display: flex;
-	flex-direction: row;
-}
-
 .timer {
-	margin: 25px;
+	margin: 15px;
 }
