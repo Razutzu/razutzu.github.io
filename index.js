@@ -28,4 +28,4 @@ function displayTime(showTime) {
 }
 
 displayTime(Date.now());
-setInterval(() => displayTime(Date.now()), 1000);
+setInterval(() => displayTime(Date.now()), 100);
