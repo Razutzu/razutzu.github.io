@@ -8,7 +8,7 @@ const data = [
 		day: 13,
 		classDate: new Date("May 14, 2025, 21:35:00 UTC+3"),
 		photo: "0.JPG",
-		date: "12 noimebrie 2023",
+		date: "12 noiembrie 2023",
 		place: "Brasov",
 		love: "Te iubesc pentru farmecul pe care l-ai avut asupra mea de la inceput",
 		message:
@@ -20,9 +20,19 @@ const data = [
 		photo: "1.JPG",
 		date: "3 aprilie 2024",
 		place: "Pietrele lui Solomon",
-		love: "<3 Te iubesc pentru ca imi oferi libertatea de a fi autentic <3",
+		love: "💜 Te iubesc pentru că îmi oferi libertatea de a fi autentic 💜 ",
 		message:
 			"Cu toții avem dorințe si aspirații. Este normal sa depunem eforturi mari pentru a ajunge unde ne dorim. Dar care este pragul moralității? A devenit o moda sa ne “mulam după persoane” si sa fim diferiți cu toate lumea. Este atât de ușor sa te pierzi pe tine însuți. Si cu toate astea, mereu ai reușit sa mă aduci la cine sunt eu. Chiar așa golan sau galant, înțelept sau idiot, interesant sau plictisitor cum am fost eu, nu mi-ai pus niciodată presiunea de “a fi diferit”. E frumoasă normalitatea.",
+	},
+	{
+		day: 15,
+		classDate: new Date("May 16, 2025, 21:35:00 UTC+3"),
+		photo: "2.JPG",
+		date: "15 martie 2024",
+		place: "Caminul Andrei Muresanu",
+		love: " 💜 Te iubesc pentru că dai viață iubirii noastre prin simplitatea ta 💜",
+		message:
+			"Suntem ființe complexe, într-o lume haotică, într-un univers vast. Tot ceea ce înseamnă viața este prin definiție complex. Cred ca din cauza asta căutăm involuntar complexitate în ceea ce facem. Dar câteodată momentele simple sunt cele mai prețioase. Daca stau sa analizez, cele mai frumoase momente alaturi de tine sunt cele mai simple. Mereu m-a fascinat fericirea ta din simplul timp petrecut impreuna. Iti multumesc, pentru ca mi-ai oferit linistea pe care multi baieti nu o au: orice s-ar intampla, simpla prezenta reciproca este cea care o sa ne implineasca sufletele.",
 	},
 ];
 
@@ -45,14 +55,14 @@ let dayData;
 
 relDate;
 
+let reached = 0;
+
 updateData(true);
 
 date.innerHTML = dayData.date;
 place.innerHTML = dayData.place;
 love.innerHTML = dayData.love;
 message.innerHTML = dayData.message;
-
-let reached = 0;
 
 const sleep = (milliseconds) => {
 	return new Promise((resolve) => setTimeout(resolve, milliseconds));
@@ -61,7 +71,7 @@ const sleep = (milliseconds) => {
 function updateData(start) {
 	if (start) {
 		const now = new Date();
-		if (now.getHours() >= 21 && now.getMinutes() >= 35) relDay = now.getDate();
+		if (now.getHours() > 21 || (now.getHours() == 21 && now.getMinutes() >= 35)) relDay = now.getDate();
 		else relDay = now.getDate() - 1;
 	} else {
 		relDay++;
@@ -101,20 +111,20 @@ async function update() {
 		reached = 2;
 		updateData(false);
 
-		await sleep(1000);
+		await sleep(2000);
 
 		image.classList.remove("trans");
 		image.classList.add("optrans");
 
-		for (const char of dayData.place) {
-			place.innerHTML += char;
+		for (const char of dayData.date) {
+			date.innerHTML += char;
 			await sleep(50);
 		}
 
 		await sleep(500);
 
-		for (const char of dayData.date) {
-			date.innerHTML += char;
+		for (const char of dayData.place) {
+			place.innerHTML += char;
 			await sleep(50);
 		}
 
@@ -156,7 +166,9 @@ async function update() {
 			await sleep(1000);
 			image.classList.remove("optrans");
 			image.classList.add("trans");
-		} else if (Date.now() + 8000 >= relDate.getTime()) updateData();
+		} else if (Date.now() + 8000 >= relDate.getTime() && Date.now() <= relDay.getTime()) {
+			updateData(false);
+		}
 	}
 }
 
