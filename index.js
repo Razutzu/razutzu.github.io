@@ -57,18 +57,13 @@ relDate;
 
 let reached = 0;
 
-updateData(true);
-
-date.innerHTML = dayData.date;
-place.innerHTML = dayData.place;
-love.innerHTML = dayData.love;
-message.innerHTML = dayData.message;
+updateData(true, true);
 
 const sleep = (milliseconds) => {
 	return new Promise((resolve) => setTimeout(resolve, milliseconds));
 };
 
-function updateData(start) {
+function updateData(start, updateText) {
 	if (start) {
 		const now = new Date();
 		if (now.getHours() > 21 || (now.getHours() == 21 && now.getMinutes() >= 35)) relDay = now.getDate();
@@ -84,6 +79,13 @@ function updateData(start) {
 	relDate = dayData.classDate;
 
 	image.src = `./assets/${dayData.photo}`;
+
+	if (updateText) {
+		date.innerHTML = dayData.date;
+		place.innerHTML = dayData.place;
+		love.innerHTML = dayData.love;
+		message.innerHTML = dayData.message;
+	}
 
 	console.log(dayIndex);
 }
@@ -109,12 +111,12 @@ async function update() {
 	if (reached == 2) return;
 	else if (reached == 1 && Date.now() >= relDate.getTime()) {
 		reached = 2;
-		updateData(false);
-
-		await sleep(2000);
+		updateData(false, false);
 
 		image.classList.remove("trans");
 		image.classList.add("optrans");
+
+		await sleep(2000);
 
 		for (const char of dayData.date) {
 			date.innerHTML += char;
@@ -166,8 +168,13 @@ async function update() {
 			await sleep(1000);
 			image.classList.remove("optrans");
 			image.classList.add("trans");
-		} else if (Date.now() + 8000 >= relDate.getTime() && Date.now() <= relDay.getTime()) {
-			updateData(false);
+		} else if (Date.now() + 8000 >= relDate.getTime() && Date.now() <= relDate.getTime()) {
+			updateData(false, true);
+
+			date.innerHTML = dayData.date;
+			place.innerHTML = dayData.place;
+			love.innerHTML = dayData.love;
+			message.innerHTML = dayData.message;
 		}
 	}
 }
