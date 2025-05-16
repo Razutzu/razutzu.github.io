@@ -76,7 +76,7 @@ const sleep = (milliseconds) => {
 function updateData(start, updateText) {
 	if (start) {
 		const now = new Date();
-		if (now.getHours() > 20 || (now.getHours() == 20 && now.getMinutes() >= 55)) relDay = now.getDate();
+		if (now.getHours() > 21 || (now.getHours() == 21 && now.getMinutes() >= 55)) relDay = now.getDate();
 		else relDay = now.getDate() - 1;
 	} else {
 		relDay++;
