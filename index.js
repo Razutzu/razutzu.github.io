@@ -26,13 +26,23 @@ const data = [
 	},
 	{
 		day: 15,
-		classDate: new Date("May 16, 2025, 21:35:00 UTC+3"),
+		classDate: new Date("May 16, 2025, 20:55:00 UTC+3"),
 		photo: "2.JPG",
 		date: "15 martie 2024",
 		place: "Caminul Andrei Muresanu",
-		love: " 💜 Te iubesc pentru că dai viață iubirii noastre prin simplitatea ta 💜",
+		love: "💜 Te iubesc pentru că dai viață iubirii noastre prin simplitatea ta 💜",
 		message:
 			"Suntem ființe complexe, într-o lume haotică, într-un univers vast. Tot ceea ce înseamnă viața este prin definiție complex. Cred ca din cauza asta căutăm involuntar complexitate în ceea ce facem. Dar câteodată momentele simple sunt cele mai prețioase. Daca stau sa analizez, cele mai frumoase momente alaturi de tine sunt cele mai simple. Mereu m-a fascinat fericirea ta din simplul timp petrecut impreuna. Iti multumesc, pentru ca mi-ai oferit linistea pe care multi baieti nu o au: orice s-ar intampla, simpla prezenta reciproca este cea care o sa ne implineasca sufletele.",
+	},
+	{
+		day: 16,
+		classDate: new Date("May 17, 2025, 21:35:00 UTC+3"),
+		photo: "3.JPG",
+		date: "8 aprilie 2024",
+		place: "AFI Brasov",
+		love: "💜 Te iubesc pentru ca faci copilul din mine sa zambeasca 💜",
+		message:
+			"Suntem adolescenți. Câteodată când stau sa mă gândesc la asta rămân uimit. Încercăm atât de mult sa trecem prin procesul dureros de maturizare, încât uitam de esență si de inocentă noastră. Stau câteodată si merg înapoi in timp, si simt un gol când îmi dau seama cum încet-încet se stinge flacăra copilului inocent si curios. Dar tu, surprinzător, nu ți-ai pierdut-o niciodată, si m-ai ajutat sa mi-o păstrez si pe a mea. Nu ratezi nicio ocazie de a-mi straluci ochii, lasandu-ti inocenta sa iasa la iveala. Timpul pe care copiii din sinea noastra l-au petrecut impreuna este cel care ne-a legat inimile cel mai mult.",
 	},
 ];
 
@@ -66,7 +76,7 @@ const sleep = (milliseconds) => {
 function updateData(start, updateText) {
 	if (start) {
 		const now = new Date();
-		if (now.getHours() > 21 || (now.getHours() == 21 && now.getMinutes() >= 35)) relDay = now.getDate();
+		if (now.getHours() > 20 || (now.getHours() == 20 && now.getMinutes() >= 55)) relDay = now.getDate();
 		else relDay = now.getDate() - 1;
 	} else {
 		relDay++;
@@ -112,6 +122,8 @@ async function update() {
 	else if (reached == 1 && Date.now() >= relDate.getTime()) {
 		reached = 2;
 		updateData(false, false);
+
+		await sleep(500);
 
 		image.classList.remove("trans");
 		image.classList.add("optrans");
