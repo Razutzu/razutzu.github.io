@@ -36,7 +36,7 @@ const data = [
 	},
 	{
 		day: 16,
-		classDate: new Date("May 17, 2025, 20:41:00 UTC+3"),
+		classDate: new Date("May 17, 2025, 21:35:00 UTC+3"),
 		photo: "3.JPG",
 		date: "8 aprilie 2024",
 		place: "AFI Brasov",
@@ -86,7 +86,7 @@ const sleep = (milliseconds) => {
 function updateData(start, updateText) {
 	if (start) {
 		const now = new Date();
-		if (now.getHours() > 20 || (now.getHours() == 20 && now.getMinutes() >= 41)) relDay = now.getDate();
+		if (now.getHours() > 21 || (now.getHours() == 21 && now.getMinutes() >= 35)) relDay = now.getDate();
 		else relDay = now.getDate() - 1;
 	} else {
 		relDay++;
