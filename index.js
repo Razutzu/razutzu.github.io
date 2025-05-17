@@ -26,7 +26,7 @@ const data = [
 	},
 	{
 		day: 15,
-		classDate: new Date("May 16, 2025, 20:55:00 UTC+3"),
+		classDate: new Date("May 16, 2025, 21:35:00 UTC+3"),
 		photo: "2.JPG",
 		date: "15 martie 2024",
 		place: "Caminul Andrei Muresanu",
@@ -36,13 +36,23 @@ const data = [
 	},
 	{
 		day: 16,
-		classDate: new Date("May 17, 2025, 21:35:00 UTC+3"),
+		classDate: new Date("May 17, 2025, 20:41:00 UTC+3"),
 		photo: "3.JPG",
 		date: "8 aprilie 2024",
 		place: "AFI Brasov",
 		love: "💜 Te iubesc pentru ca faci copilul din mine sa zambeasca 💜",
 		message:
 			"Suntem adolescenți. Câteodată când stau sa mă gândesc la asta rămân uimit. Încercăm atât de mult sa trecem prin procesul dureros de maturizare, încât uitam de esență si de inocentă noastră. Stau câteodată si merg înapoi in timp, si simt un gol când îmi dau seama cum încet-încet se stinge flacăra copilului inocent si curios. Dar tu, surprinzător, nu ți-ai pierdut-o niciodată, si m-ai ajutat sa mi-o păstrez si pe a mea. Nu ratezi nicio ocazie de a-mi straluci ochii, lasandu-ti inocenta sa iasa la iveala. Timpul pe care copiii din sinea noastra l-au petrecut impreuna este cel care ne-a legat inimile cel mai mult.",
+	},
+	{
+		day: 17,
+		classDate: new Date("May 18, 2025, 21:35:00 UTC+3"),
+		photo: "4.JPG",
+		date: "14 septembrie 2024",
+		place: "Impresso Coffee & Bar",
+		love: "💜 Te iubesc pentru ca nu m-ai lasat sa cad, chiar daca ai fi putut sa cazi si tu 💜",
+		message:
+			"Cand mă uit la poza asta, îmi aduc aminte de zilele în care nu mai simțeam viața prin vene. Eram doar o persoana care exista si nu mă bucuram de niciun minut din ziua mea. A fost o perioada dificilă, în care nu mai vedeam sens în nimic. Si totuși, în zilele cele mai întunecate, când nici tu nu mai primeai afecțiunea pe care o meritai, ai fost acolo, lângă mine. Mi-ai dat fiecare strop din empatia, compasiunea si iubirea ta. Mi-ai arătat ca orice s-ar întâmplă si oricât de greu ar fi, vei fi lângă mine, pana răsare din nou soarele.",
 	},
 ];
 
@@ -76,7 +86,7 @@ const sleep = (milliseconds) => {
 function updateData(start, updateText) {
 	if (start) {
 		const now = new Date();
-		if (now.getHours() > 21 || (now.getHours() == 21 && now.getMinutes() >= 55)) relDay = now.getDate();
+		if (now.getHours() > 20 || (now.getHours() == 20 && now.getMinutes() >= 41)) relDay = now.getDate();
 		else relDay = now.getDate() - 1;
 	} else {
 		relDay++;
