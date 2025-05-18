@@ -58,6 +58,7 @@ const data = [
 		day: 18,
 		classDate: new Date("May 19, 2025, 21:35:00 UTC+3"),
 		photo: "5.JPG",
+		date: "",
 		place: "La distanta",
 		love: "💜 Te iubesc pentru că oferi un suflet obiectelor neînsuflețite 💜",
 		message:
