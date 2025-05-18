@@ -54,6 +54,15 @@ const data = [
 		message:
 			"Cand mă uit la poza asta, îmi aduc aminte de zilele în care nu mai simțeam viața prin vene. Eram doar o persoana care exista si nu mă bucuram de niciun minut din ziua mea. A fost o perioada dificilă, în care nu mai vedeam sens în nimic. Si totuși, în zilele cele mai întunecate, când nici tu nu mai primeai afecțiunea pe care o meritai, ai fost acolo, lângă mine. Mi-ai dat fiecare strop din empatia, compasiunea si iubirea ta. Mi-ai arătat ca orice s-ar întâmplă si oricât de greu ar fi, vei fi lângă mine, pana răsare din nou soarele.",
 	},
+	{
+		day: 18,
+		classDate: new Date("May 19, 2025, 21:35:00 UTC+3"),
+		photo: "5.JPG",
+		place: "La distanta",
+		love: "💜 Te iubesc pentru că oferi un suflet obiectelor neînsuflețite 💜",
+		message:
+			"Creativitatea este o caracteristica care ne simbolizează pe noi ca specie umană. In toată evoluția noastră de la epoca de piatra pana în prezent ne-am folosit de creativitate pentru a ajunge cu o treapta mai sus. Oamenii sunt fascinanți pentru abilitatea de a fi creativi, insa consider ca aceasta este mereu împinsă de ceva mult mai profund. In cazul tău, iubirea te-a făcut sa creezi opere de arta. De fiecare data când deschid cutia cu obiecte de la tine, mă lovește un val de nenumărate emoții, ducându-mă în fiecare perioada si stare pe care am trait-o în trecut, alaturi de tine. Ai reusit sa faci amintirile impreuna nemuritoare.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
