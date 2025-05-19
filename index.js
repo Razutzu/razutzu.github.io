@@ -64,6 +64,16 @@ const data = [
 		message:
 			"Creativitatea este o caracteristica care ne simbolizează pe noi ca specie umană. In toată evoluția noastră de la epoca de piatra pana în prezent ne-am folosit de creativitate pentru a ajunge cu o treapta mai sus. Oamenii sunt fascinanți pentru abilitatea de a fi creativi, insa consider ca aceasta este mereu împinsă de ceva mult mai profund. In cazul tău, iubirea te-a făcut sa creezi opere de arta. De fiecare data când deschid cutia cu obiecte de la tine, mă lovește un val de nenumărate emoții, ducându-mă în fiecare perioada si stare pe care am trait-o în trecut, alaturi de tine. Ai reusit sa faci amintirile impreuna nemuritoare.",
 	},
+	{
+		day: 19,
+		classDate: new Date("May 20, 2025, 21:35:00 UTC+3"),
+		photo: "6.JPG",
+		date: "4 septembrie 2024",
+		place: "Costinești",
+		love: "💜 Te iubesc pentru razele de soare pe care mi le aduci după furtunile fără sfârșit 💜",
+		message:
+			"Nu a fost deloc ușor. Îndrăznesc sa spun ca a fost una dintre cele mai dure veri din viața noastră, care ne-a permis sa simțim din gustul amar al lumii de adult. Dar totuși am reușit. Am reușit sa fim asumați si sa trecem cu cate un pas peste provocările dureroase ale acestei experiențe. Dar cel mai important, după o perioada atât de greu de digerat, am reușit sa ne bucuram de cea mai plăcută vacanță pe ne-am dăruit-o reciproc. Ma încântă gandul ca am fost alături de tine, privindu-ți fericirea pură când ai admirat pentru prima data orizontul infinit al mării.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
