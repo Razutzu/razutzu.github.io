@@ -67,7 +67,7 @@ const data = [
 	{
 		day: 19,
 		classDate: new Date("May 20, 2025, 21:35:00 UTC+3"),
-		photo: "6.JPG",
+		photo: "6.jpg",
 		date: "4 septembrie 2024",
 		place: "Costinești",
 		love: "💜 Te iubesc pentru razele de soare pe care mi le aduci după furtunile fără sfârșit 💜",
