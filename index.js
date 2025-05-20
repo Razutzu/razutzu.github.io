@@ -72,7 +72,17 @@ const data = [
 		place: "Costinești",
 		love: "💜 Te iubesc pentru razele de soare pe care mi le aduci după furtunile fără sfârșit 💜",
 		message:
-			"Nu a fost deloc ușor. Îndrăznesc sa spun ca a fost una dintre cele mai dure veri din viața noastră, care ne-a permis sa simțim din gustul amar al lumii de adult. Dar totuși am reușit. Am reușit sa fim asumați si sa trecem cu cate un pas peste provocările dureroase ale acestei experiențe. Dar cel mai important, după o perioada atât de greu de digerat, am reușit sa ne bucuram de cea mai plăcută vacanță pe ne-am dăruit-o reciproc. Ma încântă gandul ca am fost alături de tine, privindu-ți fericirea pură când ai admirat pentru prima data orizontul infinit al mării.",
+			"Nu a fost deloc ușor. Îndrăznesc sa spun ca a fost una dintre cele mai dure veri din viața noastră, care ne-a permis sa simțim din gustul amar al lumii de adult. Dar totuși am reușit. Am reușit sa fim asumați si sa trecem cu cate un pas peste provocările dureroase ale acestei experiențe. Dar cel mai important, după o perioada atât de greu de digerat, am reușit sa ne bucuram de cea mai plăcută vacanță pe care ne-am dăruit-o reciproc. Ma încântă gandul ca am fost alături de tine, privindu-ți fericirea pură când ai admirat pentru prima data orizontul infinit al mării.",
+	},
+	{
+		day: 20,
+		classDate: new Date("May 21, 2025, 21:35:00 UTC+3"),
+		photo: "7.JPG",
+		date: "23 octombrie 2023",
+		place: "Impresso",
+		love: "💜 Te iubesc pentru ca ai fost motivul primului zambet dupa intunericul fara sfarsit 💜",
+		message:
+			"Începuturile sunt mereu fascinante. Entuziasmul si fericirea pe care am simțit-o este de nedescris. Chiar daca a fost o extrema nepotrivita, număram minutele pana la o următoarea ieșire cu tine. După despărțirea de familie si lovitura pe care mi-a dat-o realitatea, mi-ai umplut un gol mare in suflet. Mi-ai vindecat lipsa familiei. Ai fost si ești motivul pentru care zâmbesc in fiecare dimineața si adorm in caldura sufleteasca. Odată cu mutarea la Brașov, aș fi putut ajunge o persoana neplăcută, cu obiceiuri si priorități proaste. Insa tu, Ioana, ești motivul pentru care am ajuns cine sunt astăzi.",
 	},
 ];
 
