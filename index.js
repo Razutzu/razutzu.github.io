@@ -84,6 +84,16 @@ const data = [
 		message:
 			"Începuturile sunt mereu fascinante. Entuziasmul si fericirea pe care am simțit-o este de nedescris. Chiar daca a fost o extrema nepotrivita, număram minutele pana la o următoarea ieșire cu tine. După despărțirea de familie si lovitura pe care mi-a dat-o realitatea, mi-ai umplut un gol mare in suflet. Mi-ai vindecat lipsa familiei. Ai fost si ești motivul pentru care zâmbesc in fiecare dimineața si adorm in caldura sufleteasca. Odată cu mutarea la Brașov, aș fi putut ajunge o persoana neplăcută, cu obiceiuri si priorități proaste. Insa tu, Ioana, ești motivul pentru care am ajuns cine sunt astăzi.",
 	},
+	{
+		day: 21,
+		classDate: new Date("May 22, 2025, 21:35:00 UTC+3"),
+		photo: "8.jpg",
+		date: "3 septembrie 2024",
+		place: "Costinești",
+		love: "💜 Te iubesc pentru că m-ai cuprins în brațe chiar și când sufletul meu era plin de spini 💜",
+		message:
+			"Vacanță a fost una mirifica. Ne-am distrat, ne-am simțit bine. Ne-am bucurat de rezultatele muncii noastre. Insa când mă uit la poza asta nu pot sa nu îți observ ochii. Când mă uit la ei, vad o tristețe profundă. O confuzie fără margini. Ai fost puternică, chiar ai fost. Totuși ma macină faptul ca nu am observat asta atunci. Simt ca nu ți-am acordat grija pe care ai meritat-o de fapt. Acum înțeleg ca a fost greu pentru amândoi. Iar tu, dincolo de starea ta adâncă și de atitudinea mea, m-ai iubit la fel. Am noroc rar întâlnit: situ ce înseamnă sa fii iubit necondiționat. Sunt mândru de tine, Ioana. Îți mulțumesc.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
