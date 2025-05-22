@@ -97,7 +97,7 @@ const data = [
 	{
 		day: 22,
 		classDate: new Date("May 23, 2025, 21:35:00 UTC+3"),
-		photo: "9.jpg",
+		photo: "9.JPG",
 		date: "17 februarie 2024",
 		place: "Gara Brasov",
 		love: "💜 Te iubesc pentru ca mi-ai aratat ce inseamna de fapt sa traiesti 💜",
