@@ -94,6 +94,16 @@ const data = [
 		message:
 			"Vacanță a fost una mirifica. Ne-am distrat, ne-am simțit bine. Ne-am bucurat de rezultatele muncii noastre. Insa când mă uit la poza asta nu pot sa nu îți observ ochii. Când mă uit la ei, vad o tristețe profundă. O confuzie fără margini. Ai fost puternică, chiar ai fost. Totuși ma macină faptul ca nu am observat asta atunci. Simt ca nu ți-am acordat grija pe care ai meritat-o de fapt. Acum înțeleg ca a fost greu pentru amândoi. Iar tu, dincolo de starea ta adâncă și de atitudinea mea, m-ai iubit la fel. Am noroc rar întâlnit: situ ce înseamnă sa fii iubit necondiționat. Sunt mândru de tine, Ioana. Îți mulțumesc.",
 	},
+	{
+		day: 22,
+		classDate: new Date("May 23, 2025, 21:35:00 UTC+3"),
+		photo: "9.jpg",
+		date: "17 februarie 2024",
+		place: "Gara Brasov",
+		love: "💜 Te iubesc pentru ca mi-ai aratat ce inseamna de fapt sa traiesti 💜",
+		message:
+			"“Stabilitatea este un sentiment cald și plăcut. Este visul oricui sa trăiască cu gândul ca orice s-ar întâmplă este în siguranță. Dar luând imaginea întregii vieți în considerare, ce ai realizat traind în stabilitate?”. Așa arătau gândurile mele când te-am cunoscut. Au apărut întrebări, dorințe și aspiratii. Datorită ție am început sa explorez lumea. Datorită ție am început sa ies din zona de confort. Momentele și rezultatele nesiguranței au fost cele mai pline de viața. Au fost momentele in care ma intrebam “Chiar trebuie sa se termine?”. Insa totul a început de la simple călătorii. Călătorii care mi-au dat gustul amar al nesigurantei, dar cu un aftertaste dulce si placut. Sa nu uiți niciodată asta: ai fost, ești și vei fi mereu motivatia mea.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
