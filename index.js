@@ -104,6 +104,16 @@ const data = [
 		message:
 			"“Stabilitatea este un sentiment cald și plăcut. Este visul oricui sa trăiască cu gândul ca orice s-ar întâmplă este în siguranță. Dar luând imaginea întregii vieți în considerare, ce ai realizat traind în stabilitate?”. Așa arătau gândurile mele când te-am cunoscut. Au apărut întrebări, dorințe și aspiratii. Datorită ție am început sa explorez lumea. Datorită ție am început sa ies din zona de confort. Momentele și rezultatele nesiguranței au fost cele mai pline de viața. Au fost momentele in care ma intrebam “Chiar trebuie sa se termine?”. Insa totul a început de la simple călătorii. Călătorii care mi-au dat gustul amar al nesigurantei, dar cu un aftertaste dulce si placut. Sa nu uiți niciodată asta: ai fost, ești și vei fi mereu motivatia mea.",
 	},
+	{
+		day: 23,
+		classDate: new Date("May 24, 2025, 21:35:00 UTC+3"),
+		photo: "10.JPG",
+		date: "29 septembrie 2024",
+		place: "Meron",
+		love: "💜 Te iubesc pentru maturitatea ta ascunsa intr-un suflet inocent. 💜",
+		message:
+			"Poate este o părere subiectiva, dar pana în adancul conștiinței mele consider ca avem o relație frumoasă. Mai mult decât atât, persoanele din exterior cred ca avem o relație ideală. Daca cineva s-ar uita la aceasta poza ar vedea doar 2 cafele. Totuși doar noi știm furtuna emoțională care a fost în spatele acestei poze. Am fi putut sa ne despărțim în multe momente, Ioana. Insa amândoi am ales conștient cea mai buna varianta, dar nu și cea mai ușoară. Am ales sa ne asumam problemele din relația noastră și sa trecem peste ele. Împreună pana la capat. Ce e mai frumos decât asta?",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
