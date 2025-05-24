@@ -114,6 +114,16 @@ const data = [
 		message:
 			"Poate este o părere subiectiva, dar pana în adancul conștiinței mele consider ca avem o relație frumoasă. Mai mult decât atât, persoanele din exterior cred ca avem o relație ideală. Daca cineva s-ar uita la aceasta poza ar vedea doar 2 cafele. Totuși doar noi știm furtuna emoțională care a fost în spatele acestei poze. Am fi putut sa ne despărțim în multe momente, Ioana. Insa amândoi am ales conștient cea mai buna varianta, dar nu și cea mai ușoară. Am ales sa ne asumam problemele din relația noastră și sa trecem peste ele. Împreună pana la capat. Ce e mai frumos decât asta?",
 	},
+	{
+		day: 24,
+		classDate: new Date("May 25, 2025, 21:35:00 UTC+3"),
+		photo: "11.JPG",
+		date: "1 ianuarie 2025",
+		place: "Culcusul tau",
+		love: "💜 Te iubesc pentru modestia ta 💜",
+		message:
+			"Prima mea vizita la casa familiei tale a fost una stresanta atât pentru mine, ca și pentru tine. A fost un punct de apropiere puternic, venind în locul în care ai copilărit, dar și întâlnind persoanele cu care ai crescut. Ți-a fost frica ca te voi judeca, dar spre suprinderea ta, mediul din care vii mă face sa te iubesc cel mai mult. Casa ta mi-a dat cea mai liniștită și ușoară stare pe care am simțit-o în ultima perioada. De ce? Simplitatea familiei tale m-a făcut sa mă simt la fel de simplu.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
