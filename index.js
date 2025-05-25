@@ -124,6 +124,16 @@ const data = [
 		message:
 			"Prima mea vizita la casa familiei tale a fost una stresanta atât pentru mine, ca și pentru tine. A fost un punct de apropiere puternic, venind în locul în care ai copilărit, dar și întâlnind persoanele cu care ai crescut. Ți-a fost frica ca te voi judeca, dar spre suprinderea ta, mediul din care vii mă face sa te iubesc cel mai mult. Casa ta mi-a dat cea mai liniștită și ușoară stare pe care am simțit-o în ultima perioada. De ce? Simplitatea familiei tale m-a făcut sa mă simt la fel de simplu.",
 	},
+	{
+		day: 25,
+		classDate: new Date("May 26, 2025, 21:35:00 UTC+3"),
+		photo: "12.jpg",
+		date: "24 ianuarie 2024",
+		place: "Piata Unirii",
+		love: "💜 Te iubesc pentru intreaga constelatie din simpla ta privire 💜",
+		message:
+			"Ochii sunt oglinda sufletului. Doar atât am de zis. Ochii tai sunt la fel de fermecători ca si sufletul tău. Este atât de puternică conexiunea sufletelor printr-un simplu contact vizual. Conexiune care a marcat primii fluturi in stomac. Poza asta este una dintre preferatele mele, pentru ca pot vedea fiecare detaliu si strălucire a ochilor tai. Am văzut mii de perechi de ochi in viața mea, insa doar a ta a reușit să-mi rămână întipărită in inimă.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
