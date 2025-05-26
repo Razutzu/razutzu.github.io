@@ -134,6 +134,16 @@ const data = [
 		message:
 			"Ochii sunt oglinda sufletului. Doar atât am de zis. Ochii tai sunt la fel de fermecători ca si sufletul tău. Este atât de puternică conexiunea sufletelor printr-un simplu contact vizual. Conexiune care a marcat primii fluturi in stomac. Poza asta este una dintre preferatele mele, pentru ca pot vedea fiecare detaliu si strălucire a ochilor tai. Am văzut mii de perechi de ochi in viața mea, insa doar a ta a reușit să-mi rămână întipărită in inimă.",
 	},
+	{
+		day: 26,
+		classDate: new Date("May 27, 2025, 21:35:00 UTC+3"),
+		photo: "13.jpg",
+		date: "24 februarie 2024",
+		place: "Fântâna Uranus",
+		love: "💜 Te iubesc pentru recunostința ta față de fiecare moment petrecut împreună 💜",
+		message:
+			"Ultimile minute petrecute împreună sunt cele mai scurte. Ultimele momente sunt, uneori, si cele mai dureroase, amândoi știind ca după acele ultime secunde ne vom revedea după alte zeci de mii de secunde. Fiecare sentiment, fie el plăcut sau neplăcut, se amplifica. Inima bate mai repede, încercând sa tragă din răsputeri încă un minut in plus. Creierul e anxios, oscilând intre raționament si sentiment. Si totuși am stat acolo. Secunda cu secunda. Am ras, am plâns, dar dincolo de toate ne-am bucurat ca încă suntem împreună, lăsând problemele, responsabilitățile si grijile pentru alta data.  ",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
