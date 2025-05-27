@@ -144,6 +144,45 @@ const data = [
 		message:
 			"Ultimile minute petrecute împreună sunt cele mai scurte. Ultimele momente sunt, uneori, si cele mai dureroase, amândoi știind ca după acele ultime secunde ne vom revedea după alte zeci de mii de secunde. Fiecare sentiment, fie el plăcut sau neplăcut, se amplifica. Inima bate mai repede, încercând sa tragă din răsputeri încă un minut in plus. Creierul e anxios, oscilând intre raționament si sentiment. Si totuși am stat acolo. Secunda cu secunda. Am ras, am plâns, dar dincolo de toate ne-am bucurat ca încă suntem împreună, lăsând problemele, responsabilitățile si grijile pentru alta data.  ",
 	},
+	{
+		day: 27,
+		classDate: new Date("May 28, 2025, 21:35:00 UTC+3"),
+		photo: "14.JPG",
+		date: "19 ianuarie 2024",
+		place: "Caminul Andrei Muresanu",
+		love: "💜 Te iubesc pentru că mi-ai oferit privilegiul de a o cunoaște pe Ioana 💜",
+		message:
+			"Amândoi reținem cu ușurință momentele de “wtf”. Sunt momente fine, in care ușor ușor ies la iveala micile trăsături native ale caracterului nostru. E ciudat, e drăguț si câteodată cringe. Dar e atât de frumos sa vezi cum persoana pe care o iubești cel mai mult se deschide fata de tine. Cum își lasă barierele. Cum imărtaseste cu tine cel mai de preț lucru: pe ea însăși. Unele cupluri se despart la aceste scăpări si deschidere, si nu pot decât sa ma întreb: de ce, când eu stau, zi de zi, si te admir pentru energia, vibrația si natura ta.",
+	},
+	{
+		day: 28,
+		classDate: new Date("May 29, 2025, 21:35:00 UTC+3"),
+		photo: "15.JPG",
+		date: "12 mai 2024",
+		place: "Sighișoara",
+		love: "💜 Te iubesc pentru ca m-ai accepta și stângaci, într-o lume plină de dreptaci 💜",
+		message:
+			"“Măăi Adiii”. Când aud asta inima mi se topește. Ma cerți in timp ce îmi arăți ca ma iubești. Am fost de atâtea ori stângaci, si totuși fiecare moment de genul te-a apropiat din ce in ce mai mult de mine. Si cred ca este o explicație foarte simplă pentru asta. Suntem oameni. Cu bune, cu rele, suntem oameni care vor sa iubească si sa fie iubiți. Ne împlinim reciproc, Ioana. Ne dam viața si crestem împreună. Cum aș putea spune vreodată ca sunt neîmplinit in viața?",
+	},
+	{
+		day: 29,
+		classDate: new Date("May 30, 2025, 21:35:00 UTC+3"),
+		photo: "16.JPG",
+		date: "25 martie 2024",
+		place: "Coresi?",
+		love: "💜 Te iubesc pentru ca oferi o voce hainelor 💜",
+		message:
+			"Stii, când am venit in Brașov mi s-a întors lumea pe dos. Nu doar pentru ca am nimerit într-o lumea total diferită si pentru ca m-am despărțit de familie, dar si pentru ca am descoperit fenomenele cu pantaloni la genunchi si fete îmbrăcate 30%. Bănuiesc ca unii fug după asta. Am crezut ca va trebui sa merg după turma, neavând de ales. Insa te-am cunoscut pe tine. Mi-ai deschis ochii. Mi-ai arătat ce înseamnă finețe, rafinament si eleganta. In primele seri de teatru ma lăsai cu gura căscată. Nu după 70% piele, ci după finețe si un echilibru minunat vestimentar. Iar datorită ție, am început sa vreau si eu mai mult. Am realizat ca exista mai mult decât blugi si hanorac. Am realizat ca fiecare stil vestimentar are o energie.",
+	},
+	{
+		day: 0,
+		classDate: new Date(),
+		photo: "16.JPG",
+		date: "",
+		place: "",
+		love: "",
+		message: "",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
