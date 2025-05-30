@@ -175,13 +175,14 @@ const data = [
 			"Stii, când am venit in Brașov mi s-a întors lumea pe dos. Nu doar pentru ca am nimerit într-o lumea total diferită si pentru ca m-am despărțit de familie, dar si pentru ca am descoperit fenomenele cu pantaloni la genunchi si fete îmbrăcate 30%. Bănuiesc ca unii fug după asta. Am crezut ca va trebui sa merg după turma, neavând de ales. Insa te-am cunoscut pe tine. Mi-ai deschis ochii. Mi-ai arătat ce înseamnă finețe, rafinament si eleganta. In primele seri de teatru ma lăsai cu gura căscată. Nu după 70% piele, ci după finețe si un echilibru minunat vestimentar. Iar datorită ție, am început sa vreau si eu mai mult. Am realizat ca exista mai mult decât blugi si hanorac. Am realizat ca fiecare stil vestimentar are o energie.",
 	},
 	{
-		day: 0,
-		classDate: new Date(),
-		photo: "16.JPG",
-		date: "",
-		place: "",
-		love: "",
-		message: "",
+		day: 30,
+		classDate: new Date("May 31, 2025: 21:35:00"),
+		photo: "17.jpg",
+		date: "16 noiembrie 2024",
+		place: "Alba Iulia",
+		love: "💜 Te iubesc pentru grija ta prin detalii marunte 💜",
+		message:
+			"Dimineața e cea mai grea parte a zilei pentru mine. Din momentul in care deschid ochii sunt copleșit de toate gândurile si responsabilitățile. Cu toate astea, când ești blocat in gânduri infinite, gesturile mici sunt cele mai frumoase. Când te trezești si vezi ca persoana iubita și-a luat din timpul ei ca să-ți facă dimineața mai ușoară este minunat. Iar tu ai făcut asta de fiecare când ai avut ocazia. Mereu ai reușit sa ai grija de mine prin gesturile mărunte, care faceu o zi rea sa fie buna, iar o zi buna sa fie extraordinara. Daca le pun in balanța, aș servi cu mai mult drag o cafea arsa făcută de tine decât un mic dejun scump.",
 	},
 ];
 
