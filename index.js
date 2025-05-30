@@ -176,7 +176,7 @@ const data = [
 	},
 	{
 		day: 30,
-		classDate: new Date("May 31, 2025: 21:35:00"),
+		classDate: new Date("May 31, 2025, 21:35:00 UTC+3"),
 		photo: "17.jpg",
 		date: "16 noiembrie 2024",
 		place: "Alba Iulia",
