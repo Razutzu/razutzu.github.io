@@ -204,6 +204,16 @@ const data = [
 		message:
 			"Este un sentiment foarte plăcut sa știi ca cineva își face griji pentru tine și ca isi dorește sa fii în siguranta. Ca orice alt lucru, poate merge într-o extrema nepotrivita. Insa asta nu trebuie sa ne îngrijoreze. Ioana, îți mulțumesc pentru ca ai avut grija de mine într-o limita în care să-mi permit sa am și eu capul meu pe umeri. Mi-ai arătat ca ți-a pasat, ca îți pasa și ca o să-ți pese foarte mult de mine. Gândul acesta ma face sa adorm liniștit noaptea. Chiar daca nu esti fizic lângă mine câteodată, asta nu ma oprește sa te simt aproape, intr-un loc special lângă inima mea.",
 	},
+	{
+		day: 2,
+		classDate: new Date("June 3, 2025, 21:35:00 UTC+3"),
+		photo: "20.jpg",
+		date: "13 octombrie 2024",
+		place: "Teatrul Sică Alexandrescu",
+		love: "💜 Te iubesc pentru ca ai reusit sa ma faci o persoana mai cultă 💜",
+		message:
+			"Arta este o metoda profundă de exprimare a oamenilor. Este fascinant cum oamenii își exprima mesajele profunde prin culori, prin mișcări, dar și prin note muzicale. Totuși, nu m-aș fi gândit ca teatrul este de asemenea o forma unică de arta. Este impresionantă abilitatea actorilor de a-ți induce o stare potrivită scenei prin falsitatea lor. Îți mulțumesc, Ioana, pentru ca mi-ai arătat faptul ca o seara de teatru nu este o activitate pentru oameni de elita, ci de fapt o activitate deschisă pentru oricine, care îți poate schimba cu adevărat perspectiva asupra vieții. Iti mulțumesc de asemenea pentru ca m-ai dus la piesa de teatru care a avut cel mai mare impact asupra mea și care a reușit să-mi extindă orizontul de cunoaștere: Amadeus.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
