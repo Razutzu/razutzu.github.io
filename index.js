@@ -214,6 +214,16 @@ const data = [
 		message:
 			"Arta este o metoda profundă de exprimare a oamenilor. Este fascinant cum oamenii își exprima mesajele profunde prin culori, prin mișcări, dar și prin note muzicale. Totuși, nu m-aș fi gândit ca teatrul este de asemenea o forma unică de arta. Este impresionantă abilitatea actorilor de a-ți induce o stare potrivită scenei prin falsitatea lor. Îți mulțumesc, Ioana, pentru ca mi-ai arătat faptul ca o seara de teatru nu este o activitate pentru oameni de elita, ci de fapt o activitate deschisă pentru oricine, care îți poate schimba cu adevărat perspectiva asupra vieții. Iti mulțumesc de asemenea pentru ca m-ai dus la piesa de teatru care a avut cel mai mare impact asupra mea și care a reușit să-mi extindă orizontul de cunoaștere: Amadeus.",
 	},
+	{
+		day: 3,
+		classDate: new Date("June 4, 2025, 21:35:00 UTC+3"),
+		photo: "21.jpg",
+		date: "14 aprilie 2024",
+		place: "Chioșc",
+		love: "💜 Te iubesc pentru empatia ta care ma tine cald in cele mai reci zile 💜",
+		message:
+			"Trăim într-o perioada foarte dificilă din punct de vedere emoțional. Avem ciudată impresie ca un caracter rece și lipsit de emoții aduce succes. De ce? Oamenii au încetat sa mai fie oameni. Începem sa uitam de faptul ca ținem unii la ceilalți, de faptul ca suntem aici pentru a iubi și a fi iubiți. Sunt mai mult decât sigur ca în societatea asta haotică aș fi devenit și eu o persoana rece. Sunt sigur ca m-aș fi pierdut. Insa datorită ție, Ioana, am rămas același suflet cald și iubitor care a plecat din caldura de acasa. Îți mulțumesc ca nu m-ai lăsat să-mi pierd empatia, dar cel mai important ca nu m-ai lăsat sa ma pierd pe mine. ",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
