@@ -224,6 +224,16 @@ const data = [
 		message:
 			"Trăim într-o perioada foarte dificilă din punct de vedere emoțional. Avem ciudată impresie ca un caracter rece și lipsit de emoții aduce succes. De ce? Oamenii au încetat sa mai fie oameni. Începem sa uitam de faptul ca ținem unii la ceilalți, de faptul ca suntem aici pentru a iubi și a fi iubiți. Sunt mai mult decât sigur ca în societatea asta haotică aș fi devenit și eu o persoana rece. Sunt sigur ca m-aș fi pierdut. Insa datorită ție, Ioana, am rămas același suflet cald și iubitor care a plecat din caldura de acasa. Îți mulțumesc ca nu m-ai lăsat să-mi pierd empatia, dar cel mai important ca nu m-ai lăsat sa ma pierd pe mine. ",
 	},
+	{
+		day: 4,
+		classDate: new Date("June 5, 2025, 21:35:00 UTC+3"),
+		photo: "22.PNG",
+		date: "13 mai 2024",
+		place: "Belvedere Sighișoara",
+		love: "💜 Te iubesc pentru ca mi-ai oferit increderea ta 💜",
+		message:
+			"Îmi place foarte mult aceasta poza, pentru ca îmi aduc aminte de acea zi și de acel moment. Împlinirea acelor 6 luni consider ca a fost pragul spre încredere și deschidere. Țin minte cu exactitate drumul de întoarcere, în care discutam despre asta și eram mândru ca după atâta timp în sfârșit începem sa ne deschidem unul fata de celălalt. Știu cât de greu ți-a fost sa te deschizi. Ți-a fost greu pana și sa te comporți normal. Dar ma bucur ca după peste un an și șase luni, în care am trecut prin multe peripeții și experiențe, pe lângă ca suntem iubiți, suntem și cei mai buni prieteni. Iar asta sta la baza unei relații strânse și sănătoase.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
