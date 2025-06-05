@@ -234,6 +234,16 @@ const data = [
 		message:
 			"Îmi place foarte mult aceasta poza, pentru ca îmi aduc aminte de acea zi și de acel moment. Împlinirea acelor 6 luni consider ca a fost pragul spre încredere și deschidere. Țin minte cu exactitate drumul de întoarcere, în care discutam despre asta și eram mândru ca după atâta timp în sfârșit începem sa ne deschidem unul fata de celălalt. Știu cât de greu ți-a fost sa te deschizi. Ți-a fost greu pana și sa te comporți normal. Dar ma bucur ca după peste un an și șase luni, în care am trecut prin multe peripeții și experiențe, pe lângă ca suntem iubiți, suntem și cei mai buni prieteni. Iar asta sta la baza unei relații strânse și sănătoase.",
 	},
+	{
+		day: 5,
+		classDate: new Date("June 6, 2025, 21:35:00 UTC+3"),
+		photo: "23.jpg",
+		date: "6 martie 2024",
+		place: "Muzeul Comunismului",
+		love: "💜 Te iubesc pentru ca mi-ai oferit dorinta de a oferi 💜",
+		message:
+			"La baza sunt o persoana lipsită de inițiativa. Aproape niciodată în viața mea nu m-am aruncat după experiențe noi. Insa totul s-a schimbat din ziua în care te-am cunoscut. Brusc a avut loc o scânteie în mine care a aprins un foc puternic: o dorința de a descoperi, de a încerca și de a oferi. Ești singura persoana care a reușit sa schimbe cele mai adânci trăsături ascunse în mine. E ceva paradoxal. Tu mi-ai oferit motivația de a-ți oferi tot ce e mai bun. Nu aș ști cum se întâmplă. Nu aș ști de ce se întâmplă. Insa știu ca se simte bine. Ador sa fiu motivat sa facem lucruri împreună.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
