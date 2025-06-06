@@ -244,6 +244,16 @@ const data = [
 		message:
 			"La baza sunt o persoana lipsită de inițiativa. Aproape niciodată în viața mea nu m-am aruncat după experiențe noi. Insa totul s-a schimbat din ziua în care te-am cunoscut. Brusc a avut loc o scânteie în mine care a aprins un foc puternic: o dorința de a descoperi, de a încerca și de a oferi. Ești singura persoana care a reușit sa schimbe cele mai adânci trăsături ascunse în mine. E ceva paradoxal. Tu mi-ai oferit motivația de a-ți oferi tot ce e mai bun. Nu aș ști cum se întâmplă. Nu aș ști de ce se întâmplă. Insa știu ca se simte bine. Ador sa fiu motivat sa facem lucruri împreună.",
 	},
+	{
+		day: 6,
+		classDate: new Date("June 7, 2025, 21:35:00 UTC+3"),
+		photo: "24.jpg",
+		date: "30 ianuarie 2025",
+		place: "Panini",
+		love: "💜 Te iubesc pentru ca ai ales mereu iertarea 💜",
+		message:
+			"Chiar daca acceptam asta sau nu, greșim. Chiar și cu toată iubirea pe care o avem în noi greșim. Știu sigur ca și eu am greșit de multe ori. Am spus lucruri dure. Am închis ochii când nu trebuia. Am întrecut măsură. Nu am arătat ceea ce simt. Si multe altele. Astea toate sunt greșeli pe care le-am făcut în raport cu tine. Si da, câteodată ma mustra conștiință. As fi putut sa procedez diferit, aș fi putut sa gândesc diferit. Dar asta a fost și asta am făcut. In al 24-lea mesaj, Ioana, vreau să-ți spun ca îmi pare rău pentru tot ce am făcut și aș fi putut sa nu fac, și pentru tot ce n-am făcut și aș fi putut sa fac. Îmi pare rău ca eu, persoana care ar trebui sa te facă sa zâmbești, te-am făcut sa plângi de multe ori. Îmi pare rău ca au fost seri în care te-ai culcat cu gândul rece al îndepărtării, în loc sa adormi cu zâmbetul larg al împlinirii. Îmi pare rău ca au fost momente în care ți-ar fi fost mai ușor sa fii singura.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
