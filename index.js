@@ -254,6 +254,16 @@ const data = [
 		message:
 			"Chiar daca acceptam asta sau nu, greșim. Chiar și cu toată iubirea pe care o avem în noi greșim. Știu sigur ca și eu am greșit de multe ori. Am spus lucruri dure. Am închis ochii când nu trebuia. Am întrecut măsură. Nu am arătat ceea ce simt si multe altele. Astea toate sunt greșeli pe care le-am făcut fata de tine. Si da, câteodată ma mustra conștiință. As fi putut sa procedez diferit, aș fi putut sa gândesc diferit. Dar asta a fost și asta am făcut. In al 24-lea mesaj, Ioana, vreau să-ți spun ca îmi pare rău pentru tot ce am făcut și aș fi putut sa nu fac, și pentru tot ce n-am făcut și aș fi putut sa fac. Îmi pare rău ca eu, persoana care ar trebui sa te facă sa zâmbești, te-am făcut sa plângi de multe ori. Îmi pare rău ca au fost seri în care te-ai culcat cu gândul rece al îndepărtării, în loc sa adormi cu zâmbetul larg al împlinirii. Îmi pare rău ca au fost momente în care ți-ar fi fost mai ușor sa fii singura.",
 	},
+	{
+		day: 7,
+		classDate: new Date("June 8, 2025, 21:35:00 UTC+3"),
+		photo: "25.JPG",
+		date: "16 decembrie 2024",
+		place: "Castelul Peleș",
+		love: "💜 Te iubesc pentru ca esti cel mai bun coechipier 💜",
+		message:
+			"Consider ca este crucial pentru 2 persoane care formează un cuplu sa nu fie doar iubiți, ci și 2 aliați loiali. Ce vreau sa spun cu asta e ca un cuplu sănătos ar trebui sa fie unit și sa meargă împreună pe același drum, indiferent de cât de neplăcut este. Tu, Ioana, mi-ai arătat ca nu m-ai lasă singur. Chiar și prin simplul moment în care am făcut poza cu acel Spider-Man, ai venit alături de mine și ai făcut poza respectivă, chiar daca a trebui sa ieși din zona ta de confort. Poate a fost ceva banal, dar mi-ai arătat ca ești și vei fi alături de mine în momente neplăcute. Cele mai importante lucruri se cunosc în cele mai simple momente, în starea neutra a omului. Iar eu mi-am făcut toate concluziile necesare. Te admir.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
