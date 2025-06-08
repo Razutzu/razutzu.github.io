@@ -264,6 +264,16 @@ const data = [
 		message:
 			"Consider ca este crucial pentru 2 persoane care formează un cuplu sa nu fie doar iubiți, ci și 2 aliați loiali. Ce vreau sa spun cu asta e ca un cuplu sănătos ar trebui sa fie unit și sa meargă împreună pe același drum, indiferent de cât de neplăcut este. Tu, Ioana, mi-ai arătat ca nu m-ai lasă singur. Chiar și prin simplul moment în care am făcut poza cu acel Spider-Man, ai venit alături de mine și ai făcut poza respectivă, chiar daca a trebui sa ieși din zona ta de confort. Poate a fost ceva banal, dar mi-ai arătat ca ești și vei fi alături de mine în momente neplăcute. Cele mai importante lucruri se cunosc în cele mai simple momente, în starea neutra a omului. Iar eu mi-am făcut toate concluziile necesare. Te admir.",
 	},
+	{
+		day: 8,
+		classDate: new Date("June 9, 2025, 21:35:00 UTC+3"),
+		photo: "26.JPG",
+		date: "4 februarie 2024",
+		place: "DM",
+		love: "💜 Te iubesc pentru ca sunt prima persoana pentru tine 💜",
+		message:
+			"Oamenii sunt interesanți. Ne face o deosebită plăcere sa împărtășim si celorlalți ceea ce am făcut sau ceea ce am realizat. Cumva este normal, vrem sa fim auziți. Unii poate sunt enervați de chestia asta. Unii nu sunt mulțumiți sa audă realizările altora. Insa eu, Ioana, ador sa te ascult. Mereu m-am simțit important, pentru ca am fost poate prima persoana care aude acea poveste. Așa ca te rog sa nu te oprești. Mereu când simți ca vrei sa împărtășești ceva, scrie-mi sau sună-ma. Mereu a fost și va fi important ceea ce vrei sa îmi spui în acel moment. Chiar daca uneori nu simți acea atenție, pentru mine va conta mereu.",
+	},
 ];
 
 const timerContainer = document.getElementById("timer-container");
