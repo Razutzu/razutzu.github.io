@@ -274,6 +274,15 @@ const data = [
 		message:
 			"Oamenii sunt interesanți. Ne face o deosebită plăcere sa împărtășim si celorlalți ceea ce am făcut sau ceea ce am realizat. Cumva este normal, vrem sa fim auziți. Unii poate sunt enervați de chestia asta. Unii nu sunt mulțumiți sa audă realizările altora. Insa eu, Ioana, ador sa te ascult. Mereu m-am simțit important, pentru ca am fost poate prima persoana care aude acea poveste. Așa ca te rog sa nu te oprești. Mereu când simți ca vrei sa împărtășești ceva, scrie-mi sau sună-ma. Mereu a fost și va fi important ceea ce vrei sa îmi spui în acel moment. Chiar daca uneori nu simți acea atenție, pentru mine va conta mereu.",
 	},
+	{
+		day: 9,
+		classDate: new Date("June 10, 2025, 21:35:00 UTC+3"),
+		photo: "27.jpg",
+		date: "3 februarie 2024",
+		place: "Sala de lectura",
+		love: "💜 Te iubesc pentru ca mi-ai inflorit drumul potrivit al vietii 💜",
+		message: "Viața ar fi grea fără alți oameni alaturi de noi. Persoanele din jurul nostru sunt cele care ne motivează, care ne asculta, dar care ne și dezamăgesc. Trandafirii au și ei țepi. Datorita ție, viața mea a luat o cale total diferită. Daca n-aș fi fost împreună cu tine, nu aș fi ajuns în contextele sociale in care ajuns și nu aș fi cunoscut persoanele pe care le-am cunoscut. Direct și indirect, mi-ai schimbat viața astfel încât sa cunosc persoane la care țin și care la rândul lor țin la mine. Cu fiecare zi realizez ca îți sunt mai dator decât credeam."
+	}
 ];
 
 const timerContainer = document.getElementById("timer-container");
