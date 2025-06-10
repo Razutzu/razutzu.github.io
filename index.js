@@ -282,6 +282,15 @@ const data = [
 		place: "Sala de lectura",
 		love: "💜 Te iubesc pentru ca mi-ai inflorit drumul potrivit al vietii 💜",
 		message: "Viața ar fi grea fără alți oameni alaturi de noi. Persoanele din jurul nostru sunt cele care ne motivează, care ne asculta, dar care ne și dezamăgesc. Trandafirii au și ei țepi. Datorita ție, viața mea a luat o cale total diferită. Daca n-aș fi fost împreună cu tine, nu aș fi ajuns în contextele sociale in care ajuns și nu aș fi cunoscut persoanele pe care le-am cunoscut. Direct și indirect, mi-ai schimbat viața astfel încât sa cunosc persoane la care țin și care la rândul lor țin la mine. Cu fiecare zi realizez ca îți sunt mai dator decât credeam."
+	},
+	{
+		day: 10,
+		classDate: new Date("June 11, 2025, 21:35:99 UTC+3"),
+		photo: "28.JPG",
+		date: "25 februarie 2025",
+		place: "Poetry coffeeshop",
+		love: "💜 Te iubesc pentru ca mi-ai deschis usi care duceau spre palate 💜",
+		message: "Daca tot vorbim de oportunități și drumuri potrivite, mai e ceva pentru care trebuie să-ți mulțumesc. Ioana, datorită faptului ca te-am cunoscut,  ca am vrut sa ne mutam împreună si ca ne-am angajat, am reușit sa aflu pentru ce sunt menit, cel puțin in aceasta perioada. Cafeaua ma face sa ma simt viu, si la propriu, si la figurat. Iar ceea ce este cu adevărat magnific la tine e faptul ca oricât de mult ti-as umple capul cu informații de care nu-ți pasa, mereu ma asculți si îmi susții aceasta pasiune care ma face sa trăiesc. Este un noroc rar intalnit, iar cu tine simt ca am câștigat jackpot-ul."
 	}
 ];
 
