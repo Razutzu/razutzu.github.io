@@ -285,12 +285,21 @@ const data = [
 	},
 	{
 		day: 10,
-		classDate: new Date("June 11, 2025, 21:35:99 UTC+3"),
+		classDate: new Date("June 11, 2025, 21:35:00 UTC+3"),
 		photo: "28.JPG",
 		date: "25 februarie 2025",
 		place: "Poetry coffeeshop",
 		love: "💜 Te iubesc pentru ca mi-ai deschis usi care duceau spre palate 💜",
 		message: "Daca tot vorbim de oportunități și drumuri potrivite, mai e ceva pentru care trebuie să-ți mulțumesc. Ioana, datorită faptului ca te-am cunoscut,  ca am vrut sa ne mutam împreună si ca ne-am angajat, am reușit sa aflu pentru ce sunt menit, cel puțin in aceasta perioada. Cafeaua ma face sa ma simt viu, si la propriu, si la figurat. Iar ceea ce este cu adevărat magnific la tine e faptul ca oricât de mult ti-as umple capul cu informații de care nu-ți pasa, mereu ma asculți si îmi susții aceasta pasiune care ma face sa trăiesc. Este un noroc rar intalnit, iar cu tine simt ca am câștigat jackpot-ul."
+	},
+	{
+		day: 11,
+		classDate: new Date("June 12, 2025, 21:35:00 UTC+3"),
+		photo: "29.JPG",
+		date: "2 septembrie 2024",
+		place: "Discoteca Max",
+		love: "💜 Te iubesc pentru ca imi oferi liniste 💜",
+		message: "Ti-am exprimat norocul meu din multe puncte de vedere. Insa pe lângă toate celelalte, mai am unul de spus. Ma simt atât de fericit si norocos cand realizez ca nu a trebuit sa ma îndoiesc niciodată in privința ta. Orice vorba am auzit, orice am văzut, mereu ai fost ultima persoana pe care aș fi pus-o la îndoială. Pana si noaptea in club cu iubita mea, experiența de care se tem toți băieții, a fost una dintre cele mai distractive si cele mai faine. In toată mulțimea aia am fost doar tu si eu. Am dansat, am băut si ne-am simțit bine, cum facem mereu."
 	}
 ];
 
