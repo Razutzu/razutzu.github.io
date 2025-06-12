@@ -300,6 +300,15 @@ const data = [
 		place: "Discoteca Max",
 		love: "💜 Te iubesc pentru ca imi oferi liniste 💜",
 		message: "Ti-am exprimat norocul meu din multe puncte de vedere. Insa pe lângă toate celelalte, mai am unul de spus. Ma simt atât de fericit si norocos cand realizez ca nu a trebuit sa ma îndoiesc niciodată in privința ta. Orice vorba am auzit, orice am văzut, mereu ai fost ultima persoana pe care aș fi pus-o la îndoială. Pana si noaptea in club cu iubita mea, experiența de care se tem toți băieții, a fost una dintre cele mai distractive si cele mai faine. In toată mulțimea aia am fost doar tu si eu. Am dansat, am băut si ne-am simțit bine, cum facem mereu."
+	},
+	{
+		day: 12,
+		classDate: new Date("June 13, 2025, 21:35:00 UTC+3"),
+		photo: "30.jpg",
+		date: "4 septembrie 2024",
+		place: "Costinesti",
+		love: "💜 Te iubesc cu toata fiinta acum pentru ca va veni o zi in care nu voi mai putea 💜",
+		message: "Suntem ființe limitate. Pe cât de mult am încerca sa înțelegem infinitul, este imposibil. In lumea noastră, absolut orice are un început și un sfârșit. Iar acest gând este cel mai greu de acceptat. Conștient poate îl acceptam, dar în adâncul nostru ne este greu. Si totuși cu acest sentiment și cu aceasta conștientizare, ne irosim limita timpului pentru suparari, gelozii, bani, si asa mai departe. Sunt conștient ca nu vom fi alături la nesfârșit. Fie ca se va întâmplă maine sau peste zeci de ani, se va întâmplă oricum. Fie ca ne va despărți orgoliul sau moartea, se va întâmplă oricum. Trebuie sa trăim prezentul, Ioana. Nu îl înțeleg, dar știu ca regretul pierderii este cel mai dureros."
 	}
 ];
 
